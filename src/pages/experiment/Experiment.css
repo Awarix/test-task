@@ -1,0 +1,26 @@
+.experiment-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.experiment-data  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.experiment-table {
+    align-self: center;
+}
+
+.experiment-button {
+    align-self: center;
+}
+
+.empty-data {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(171, 185, 185, 0.534);
+    font-size: 2rem;
+    text-align: center;
+  }

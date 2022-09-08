@@ -1,0 +1,36 @@
+.slideMenu-body {
+  width: 250px;
+  height: 30rem;
+  background-color: rgb(219, 207, 207);
+  padding: 1rem;
+  box-shadow:-5px 5px 15px black;
+}
+
+.slideMenu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.slideMenu-item p {
+    font-size: 1.25rem;
+    padding-left: 0.5rem;;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+    z-index: 1001;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
